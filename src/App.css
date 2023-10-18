@@ -34,7 +34,7 @@ body {
 
 .editor__panel_wrapper {
   display: flex;
-  align-items: start;
+  flex-direction: start;
   justify-content: space-between;
   gap: 100px;
   height: 800px;
