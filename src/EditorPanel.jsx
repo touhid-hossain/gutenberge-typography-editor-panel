@@ -1,27 +1,8 @@
-import React, { useState } from "react";
 import { FiMonitor } from "react-icons/fi";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
-const EditorPanel = () => {
-  //Initial value || Handling Multiple values with single state!!  
-  const [value, setValue] = useState({
-    family: "",
-    fontSizeRanger: 0,
-    weight: "",
-    transform: "",
-    style: "",
-    decoration: "",
-    lineHeight: 0,
-    letterSpacing: 0,
-    wordSpacing: 0,
-  });
-  console.log(value);
-
-// Value Change Detecting Function  
-  const onChange = (e) => {
-    setValue({ ...value, [e.target.name]: e.target.value });
-  };
-
+const EditorPanel = ({ value, onChange }) => {
+  // console.log(value);
   return (
     <div className="panel_body_wrapper">
       {/* Item - 01 || Font-Family*/}
