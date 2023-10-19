@@ -63,10 +63,10 @@ const EditorPanel = ({ value, onChange }) => {
             className="font_weight dropdown"
           >
             <option value="">Default</option>
-            <option value="400 (Light)">400 (Light)</option>
-            <option value="500 (Normal)">500 (Normal)</option>
-            <option value="600 (Semi Bold)">600 (Semi Bold)</option>
-            <option value="800 (Bold)">800 (Bold)</option>
+            <option value="400">400 (Light)</option>
+            <option value="500">500 (Normal)</option>
+            <option value="600">600 (Semi Bold)</option>
+            <option value="800">800 (Bold)</option>
           </select>
         </form>
       </div>
@@ -99,8 +99,8 @@ const EditorPanel = ({ value, onChange }) => {
             onChange={onChange}
           >
             <option value="">Default</option>
-            <option value="Normal">Normal</option>
-            <option value="Italic">Italic</option>
+            <option value="normal">Normal</option>
+            <option value="italic">Italic</option>
             <option value="oblique">Oblique</option>
           </select>
         </form>
@@ -116,10 +116,10 @@ const EditorPanel = ({ value, onChange }) => {
             onChange={onChange}
           >
             <option value="">Default</option>
-            <option value="Overline">Overline</option>
-            <option value="Line-Through">Line-Through</option>
-            <option value="Underline">Underline</option>
-            <option value="Dotted">Dotted</option>
+            <option value="overline">Overline</option>
+            <option value="line-through">Line-Through</option>
+            <option value="underline">Underline</option>
+            <option value="dotted">Dotted</option>
           </select>
         </form>
       </div>

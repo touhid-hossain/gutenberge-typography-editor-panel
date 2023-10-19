@@ -82,9 +82,12 @@ function App() {
               style={{
                 ...value,
                 fontSize: `${value.fontSizeRanger}px`,
+                fontWeight: `${value.weight}`,
                 lineHeight: `${value.lineHeight}px`,
                 letterSpacing: `${value.letterSpacing}px`,
                 wordSpacing: `${value.wordSpacing}px`,
+                fontStyle: `${value.style}`,
+                textDecoration: `${value.decoration}`,
               }}
             >
               Test Me <br />
